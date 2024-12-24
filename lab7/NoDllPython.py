@@ -10,8 +10,7 @@ def divide_vector(vector, divisor):
 
     return result, time_taken
 
-    # Создаём тестовый вектор
-vector = [random.random() for _ in range(15000000)]  # Вектор из миллиона случайных чисел
+vector = [random.random() for i in range(15000000)]  # Вектор из миллиона случайных чисел
 divisor = 2.0
 
 #Деление
